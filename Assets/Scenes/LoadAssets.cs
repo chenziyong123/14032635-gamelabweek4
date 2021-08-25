@@ -11,6 +11,7 @@ public class LoadAssets : MonoBehaviour
    
     void Start()
     {
+
         
            GameObject.Instantiate(redObj, new Vector3(2, 0, 0), Quaternion.identity);
 
@@ -22,4 +23,7 @@ public class LoadAssets : MonoBehaviour
     {
 
     }
+
+    // Update is called once per frame
+    
 }
